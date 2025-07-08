@@ -1,0 +1,40 @@
+body{
+    /* box-sizing: border-box; */
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    color:white;
+    justify-content:space-between;
+    padding:0 4rem;
+    text-wrap: wrap;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+
+ul{
+    display: flex;
+    /* flex-direction: row; */
+    gap:15px;
+    list-style-type: none;
+}
+.hero-container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding:80px;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:80px;
+}
+.info-title{
+    text-align: center;
+}
